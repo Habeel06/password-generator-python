@@ -2,7 +2,8 @@ import random
 from termcolor import colored
 import colorama 
 colorama.init()
-
+import os
+os.system('color')
 
 
 print(colored('''
