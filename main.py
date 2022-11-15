@@ -10,7 +10,7 @@ while True:
             
                         a="abcdefghijklmnopqrstuvwxyz"
                         b="1234567890"
-                         c="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                        c="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
                         print("".join(random.sample(a+b+c,y)))
             
 
