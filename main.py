@@ -26,7 +26,7 @@ while True:
                         b="1234567890"
                         c="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
                         d="!@#$&+"
-                        print("".join(random.sample(a+b+c+d,y)))
+                        print("Your generated password is : "+ "".join(random.sample(a+b+c+d,y)))
             
 
             
