@@ -2,8 +2,7 @@ import random
 
 while True:
 
-    x=input("Length of the password (it should be less than 35) :")
-    
+    x=input("Length of the password 8-35 (recommended) :")
     try:
         y = int(x) 
         if y <= 35:
