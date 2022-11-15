@@ -35,6 +35,6 @@ while True:
 
             
         else:
-            print("Try Again-The length should be less than or equal to 35")
+             print(colored("Try Again!The length should be less than or equal to 35.","blue"))
     except ValueError:
             print(colored("Length should be a whole number which should be between 8-35 (recommended). TRY AGAIN!","yellow"))
