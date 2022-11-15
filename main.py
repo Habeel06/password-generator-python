@@ -21,7 +21,7 @@ print(colored('''
 
 while True:
 
-    x=input("Length of the password 8-35 (recommended) :")
+    x=input(colored("Length of the password (8-35 recommended). :","yellow"))
     try:
         y = int(x) 
         if y <= 35:
