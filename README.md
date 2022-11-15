@@ -2,7 +2,11 @@
 
 ## 📝About
 A simple password generator using python.
-<img src="encr.jpg">
+<img src="pwdimg.jpg">
+
+## 🔑Test
+
+
 <img src="encr.jpg">
 ## 👨‍💻 Dependencies
 MAKE SURE THAT YOU HAVE THESE MODULES INSTALLED FIRST!
