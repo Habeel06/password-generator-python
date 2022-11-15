@@ -30,11 +30,11 @@ while True:
                         b="1234567890"
                         c="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
                         d="!@#$&+"
-                        print("Your generated password is : "+ "".join(random.sample(a+b+c+d,y)))
+                        print(colored("Your generated password is : "+ "".join(random.sample(a+b+c+d,y)),"green"))
             
 
             
         else:
             print("Try Again-The length should be less than or equal to 35")
     except ValueError:
-          print("Length should be a whole number which is between 8-35 (recommended). TRY AGAIN!")
+            print(colored("Length should be a whole number which should be between 8-35 (recommended). TRY AGAIN!","yellow"))
