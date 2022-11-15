@@ -11,7 +11,8 @@ while True:
                         a="abcdefghijklmnopqrstuvwxyz"
                         b="1234567890"
                         c="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-                        print("".join(random.sample(a+b+c,y)))
+                        d="!@#$&+"
+                        print("".join(random.sample(a+b+c+d,y)))
             
 
             
